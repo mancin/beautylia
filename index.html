@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Lia Beauty</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<a href=""><img src="imagens/logo2.png" id="logo"></a>
+			<div id="barradepesquisa">
+			   <form>		   		
+					<input type="text" class="email " name="email" id="pesquisa" placeholder="Pesquisar">
+					<button type="submit">
+						<img src="imagens/pesqui.png" width="18px">
+					</button>				
+			   </form>
+			</div>
+
+            <div class="toggler" onclick="displaymenu(this)">
+                <img src="imagens/toggle.png" width="33px" style="margin-top: 5px; margin-right: 10px;" >
+              </div>
+
+			<div id="perfil-sacola">
+					<ul>
+						<li style="margin-right: 10px;"> 
+							<a href="" class="minhaC">
+                                <div class="minhaconta">
+                                    <img src="imagens/perfil.png" width="30px">
+                                    <p>Minha conta</p>
+                                </div>							
+							</a>
+						</li>
+
+						<li>
+							<a href="" class="meuC">
+                                <div class="meucarrinho">
+                                    <img src="imagens/compras.png" width="30px">
+                                    <p>Meu carrinho</p>
+                                </div>								
+							</a>
+						</li>
+
+					</ul>	
+			</div>
+        </header>
+	</div>
+ 	
+    <div id="barramenu">
+        <ul>
+            <li><a href="#novidades">NOVIDADES</a></li>
+            <li><a href="#">KITS PRONTOS</a></li>
+            <li><a href="#">ROSTO</a></li>
+            <li><a href="#">CABELO</a></li>
+            <li><a href="#">CORPO</a></li>           
+        </ul>
+
+        <ul>
+            <li class="perfil-sacola-menu"> 
+                <a href="" class="minhaC">
+                    <div class="minhaconta">
+                        <img src="imagens/perfil.png" width="30px">
+                        <p>Minha conta</p>
+                    </div>							
+                </a>
+            </li>
+            <li class="perfil-sacola-menu">
+                <a href="" class="meuC">
+                    <div class="meucarrinho">
+                        <img src="imagens/compras.png" width="30px">
+                        <p>Meu carrinho</p>
+                    </div>								
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="imagens/softbanner.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://source.unsplash.com/random/1300x451" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://source.unsplash.com/random/1300x452" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <div id="container">
+        <div class="blocos">
+            <div class="bloco1">
+                <img src="imagens/porco.jpg" style="width: 100%;">
+            </div>
+            <div class="bloco1">
+                <img src="imagens/pincel.jpg" style="width: 100%;">
+            </div>
+            <div class="bloco1">
+                <img src="imagens/serum.jpg" style="width: 100%;">
+            </div>
+        </div>  
+    </div> 
+
+        <div id="container">
+
+            <h1 class="H1">Novidades</h1>
+            
+            <div class="carousel owl-carousel">
+                <div>
+                    <div class="blocoNov">
+                        <img src="imagens/batom4.png">
+                        <p class="tituloProd">Batom rosa - Marca1</p>
+                        <p class="preço">R$ 15,90</p>
+                        <a href="" class="comprar">COMPRAR</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="blocoNov">
+                        <img src="imagens/batom4.png">
+                        <p class="tituloProd">Batom rosa - Marca1</p>
+                        <p class="preço">R$ 15,90</p>
+                        <a href="" class="comprar">COMPRAR</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="blocoNov">
+                        <img src="imagens/batom4.png">
+                        <p class="tituloProd">Batom rosa - Marca1</p>
+                        <p class="preço">R$ 15,90</p>
+                        <a href="" class="comprar">COMPRAR</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="blocoNov">
+                        <img src="imagens/batom4.png">
+                        <p class="tituloProd">Batom rosa - Marca1</p>
+                        <p class="preço">R$ 15,90</p>
+                        <a href="" class="comprar">COMPRAR</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="blocoNov">
+                        <img src="imagens/batom4.png">
+                        <p class="tituloProd">Batom rosa - Marca1</p>
+                        <p class="preço">R$ 15,90</p>
+                        <a href="" class="comprar">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <div id="container">  
+            <h1 class="H1">Mais Produtos</h1>       
+            <div class="carousel owl-carousel">            
+                <div class="blocoMaisV">
+                    <img src="imagens/pincel.jpeg" width="180px">
+                    <p class="tituloProd">Kit Pincel - Marca 1</p>
+                    <p class="preço">R$ 25,50</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/paletaRR.jpeg" width="105px">
+                    <p class="tituloProd">Nude Palette - Ruby Rose</p>
+                    <p class="preço">R$ 30,00</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/porco.jpeg" width="210px">
+                    <p class="tituloProd">Porco - Marca2</p>
+                    <p class="preço">R$ 12,00</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/serum.jpeg" width="210px">
+                    <p class="tituloProd">Serum - Marca3</p>
+                    <p class="preço">R$ 15,00</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>          
+            </div>
+           
+        </div>
+        <div id="container">        
+            <div class="carousel owl-carousel">
+                <div class="blocoMaisV">
+                    <img src="imagens/batom4.png">
+                    <p class="tituloProd">Batom Vermelho - Marca2</p>
+                    <p class="preço">R$ 15,90</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/batom3.png">
+                    <p class="tituloProd">Batom rosa - Marca1</p>
+                    <p class="preço">R$ 15,90</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/batom4.png">
+                    <p class="tituloProd">Batom Vermelho - Marca2</p>
+                    <p class="preço">R$ 15,90</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>
+                <div class="blocoMaisV">
+                    <img src="imagens/batom3.png">
+                    <p class="tituloProd">Batom roxo - Marca3</p>
+                    <p class="preço">R$ 15,90</p>
+                    <a href="" class="comprar">COMPRAR</a>
+                </div>          
+            </div>
+           
+        </div>
+
+    <script>
+
+$(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        responsive: {
+          0:{
+            items:2,
+            nav: false
+          },
+          600:{
+            items:2,
+            nav: false
+          },
+          1000:{
+            items:4,
+            nav: false
+          }
+        }
+      });
+
+
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        function displaymenu(x){
+            var barramenu = document.getElementById("barramenu");
+            var disp = barramenu.style.display;
+            
+            if(disp == 'none'){
+               disp = 'flex';     
+            } else{
+            disp = 'none';   
+            }
+           barramenu.style.display = disp;
+            
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+
+        </script>
+
+</body>
+</html>
+
